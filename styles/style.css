@@ -6,6 +6,14 @@ p{
     font-weight: 400;
 }
 
+.nav-bg{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-font{
+    font-weight: 700;
+}
+
 .slider-button{
     background-color: white;
     border-radius: 5px;
@@ -19,6 +27,10 @@ p{
 .card-3{
     background-color: pink;
     border-radius: 25px;
+}
+
+.badge-color{
+    background-color: rgb(255, 99, 125);
 }
 
 .custom-card{

@@ -22,7 +22,15 @@
 </head>
 <body>
     <header>
-        <section class="container mb-5">
+        <section class="mb-5">
+                <nav class="container navbar navbar-light nav-bg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <h3 class="nav-font">Pattiwala Convention Center</h3>
+                      </a>
+                    </div>
+                </nav>
+
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,7 +43,7 @@
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Borolox Event Planner</h5>
                         <p>We always arrange cool event. And we are not for goribs. If you are 'Pattiwala' then book us.</p>
-                        <button type="button" class="btn slider-button btn-sm">Book Now</button>                               
+                        <a target="_blank" href="https://www.facebook.com/sifatkhan5k"><button type="button" class="btn slider-button btn-sm">Book Now</button></a>                             
                     </div>
                 </div>
                   <div class="carousel-item">
@@ -43,7 +51,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Borolox Event Planner</h5>
                         <p>We always arrange cool event. And we are not for goribs. If you are 'Pattiwala' then book us.</p>
-                        <button type="button" class="btn btn-sm slider-button">Book Now</button> 
+                        <a target="_blank" href="https://www.facebook.com/sifatkhan5k"><button type="button" class="btn slider-button btn-sm">Book Now</button></a>   
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -51,7 +59,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Borolox Event Planner</h5>
                         <p>We always arrange cool event. And we are not for goribs. If you are 'Pattiwala' then book us.</p>
-                        <button type="button" class="btn slider-button btn-sm">Book Now</button> 
+                        <a target="_blank" href="https://www.facebook.com/sifatkhan5k"><button type="button" class="btn slider-button btn-sm">Book Now</button></a>   
                     </div>
                   </div>
                 </div>
@@ -105,8 +113,12 @@
                   </div>
                 </div>
 
-                <div class="card p-3 custom-card">
-                  <div class="card-body card-3">
+                <div class="card custom-card">
+                    <span class="position-absolute top-25 start-50 translate-middle badge rounded-pill badge-color">
+                        Standard
+                        <span class="visually-hidden">Standard Packagec</span>
+                      </span>
+                  <div class="card-body p-4 card-3">
                     <h3 class="card-title">$1200</h3>
                     <h4 class="card-subtitle mb-2">Wedding plus</h4>
                     <p class="card-text text-muted">For most weddings with premium plans</p>
@@ -139,6 +151,14 @@
         <!-- Section 3 -->
 
         <section class="container">
+            <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                  Hello, world! This is a toast message.
+                 </div>
+                  <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>
             <div class="mt-5">
                 <h2 class="text-center">Frequently Asked Questions</h2>
             </div>
@@ -204,16 +224,16 @@
 
     <footer>
         <section class="container">
-            <div class="d-flex justify-content-between p-5">
+            <div class="d-flex justify-content-between pt-5">
                 <div class="row align-items-center">
-                    <p>2022 Sifat. All rights reserved</p>
+                    <p><i class="far fa-copyright"></i> 2022 Sifat. All rights reserved</p>
                 </div>
     
                 <div class="row align-items-center">
-                    <h5>Get the App</h5>
+                    <h5 class="d-inline-flex">Get the App</h5>
                     <div class="d-flex flex-column">
-                        <a href=""><img class="footer-image" src="images/footer-img/footer-1.png" alt=""></a>
-                        <a class="mt-2" href=""><img class="footer-image2" src="images/footer-img/footer-2.png" alt=""></a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"><img class="footer-image" src="images/footer-img/footer-1.png" alt=""></a>
+                        <a target="_blank" class="mt-2" href="https://apps.apple.com/sg/app/programming-hero-coding-fun/id1478201849"><img class="footer-image2" src="images/footer-img/footer-2.png" alt=""></a>
                     </div>
                 </div>
             </div>
