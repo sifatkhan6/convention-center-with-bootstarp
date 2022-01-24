@@ -71,11 +71,3 @@ footer{
 .footer-image2{
     width: 50%;
 }
-
-/* media query */
-
-@media only screen and (max-width:688px) {
-    .custom-slider{
-        height: 50%;
-    }
-}
