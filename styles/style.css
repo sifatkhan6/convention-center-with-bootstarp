@@ -12,6 +12,15 @@ p{
     padding: 5px 15px;
 }
 
+.section-2{
+    margin-top: 30%;
+}
+
+.card-3{
+    background-color: pink;
+    border-radius: 25px;
+}
+
 .custom-card{
     border: none;
 }
@@ -26,11 +35,15 @@ p{
 }
 
 .card-button{
-    background-color: rgb(235, 232, 232);
+    background-color: pink;
     border: none;
     padding: 13px 65px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.card-3-button{
+    background-color: white;
 }
 
 footer{
@@ -40,9 +53,9 @@ footer{
 }
 
 .footer-image{
-    width: 17%;
+    width: 50%;
 }
 
 .footer-image2{
-    width: 24%;
+    width: 50%;
 }
